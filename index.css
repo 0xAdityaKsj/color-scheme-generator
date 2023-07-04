@@ -1,4 +1,52 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    padding-top: 5em;
+    margin-bottom: 3em;
+}
+
+
+#seed-color {
+    height: 3em;
+    width: 4em;
+}
+
+#color-scheme {
+    width: 20em;
+    padding: 0.7em 0 0.7em 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+
+
+#btn {
+    padding: 0.7em 1.5em;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#main img {
+    width: 9.25em;
+    height: 34.375em;
+}
+
+#main div p {
+    display: flex;
+    justify-content: center;
 }
